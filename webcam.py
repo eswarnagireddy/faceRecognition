@@ -83,8 +83,8 @@ if __name__ == "__main__":
       # Display the resulting image
         cv2.imshow('Video', frame)
 
-        # Hit 'q' on the keyboard to quit!
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        # Hit 'x' in Keyboard to exit the console
+        if cv2.waitKey(1) & 0xFF == ord('x'):
             break
         
 # Release handle to the webcam
